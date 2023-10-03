@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;500&family=Tourney:ital,wght@1,300&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&family=Staatliches&display=swap');
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #5aa7d1;
+	color: #fff;
+	font-family: "Hanken Grotesk";
+	font-weight: 500;
+	font-size: 3vw;
+}
+
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 100vw;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.nav_container{
+	display: flex;
+	flex-flow: row;
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+
+.nav{
+	font-weight: bolder;
+	font-size: 2vw;
+	text-decoration: none;
+	color: #457ed9;
+	padding: 1vw 2vw;
+}
+
+.nav:hover{
+	color: #fff;
+}
+
+.Head{
+	display: flex;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+.banner1{
+	width: 100vw;
+	height: auto;
+}
+
+.header1{
+	position: absolute;
+	align-self: center;
+	justify-content: flex-start;
+	font-size: 12vw;
+	font-weight: light;
+	font-style: italic;
+}
+
+.header2{
+	padding: 5vw;
+	font-size: 5vw;
+	background-color: #fff;
+	color: #457ed9;
+}
+
+.header3{
+	text-align: center;
+	font-size: 4vw;
+	background-color: rgba(255, 255, 255, 0.8);
+	color: #5aa7d1;
+}
+
+.header2-info{
+	padding-left: 5vw;
+	padding-top: 3vw;
+	padding-bottom: 3vw;
+	font-size: 3vw;
+	background-color: #457ed9;
+	color: #fff;
+	font-style: italic;
+}
+
+.Icons{
+	display: flex;
+	justify-content: center;
+	gap: 30vw;
+}
+
+.icon-info{
+	padding-left: 12vw;
+	padding-right: 12vw;
+	font-size: 2vw;
+	display: flex;
+	gap: 12vw;
+}
+
+.highlighter{
+	color: #ffe747;
+}
+
+.Icons img {
+	object-fit: cover;
+	width: 15vw;
+	height: auto;
+}
+
+.info{
+	padding-left: 5vw;
+	padding-right: 5vw;
+	font-size: 2w;
+}
+
+.twoColumnContainer{
+	display: flex;
+}
+
+.twoColumnContainer p {
+	padding-left: 5vw;
+	padding-right: 5vw;
+	font-size: 2.5vw;
+	column-gap: 1vw;
+}
+
+.twoColumnContainer img {
+	width: 50%;
+	padding-right: 5vw;
+	float: right;
+}
+
+.threeColumnContainer{
+	display: flex;
+	justify-content: center;
+}
+
+.imageBlock {
+	width: 30vw;
+	object-fit: cover;
+	aspect-ratio: 1/1;
+}
+
+.container-help {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row {
+    flex: 1;
+    width: 50%;
+    margin: 1vw;
+    border: 0.3vw solid;
+    padding: 5vw;
+}
+
+.column {
+    text-align: center;
+}
+
+
+.column h2 {
+    font-size: 2vw;
+    margin: 1vw;
+}
+
+.column p {
+    font-size: 1.2vw;
+    line-height: 1.4;
+}
+
+.PH1 {
+	width: 10vw;
+}
+
